@@ -13,7 +13,7 @@ export const ContentUsers = () => {
 
       setTimeout(() => {
         (async () => {
-          const userData = await getGeneralUserData('aKus-web');
+          const userData = await getGeneralUserData('aKus-dev');
           setUser(userData);
           setIsLoaded(false)
         })()
